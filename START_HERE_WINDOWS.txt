@@ -1,0 +1,24 @@
+APPDEV TUTORIAL - QUICK START (WINDOWS + VS CODE)
+================================================
+
+1. Install Node.js 22.13+ from https://nodejs.org/
+2. Extract the ZIP.
+3. In VS Code select File > Open Folder > AppDev-Tutorial.
+4. Select Terminal > New Terminal (PowerShell).
+5. Enter:
+
+   npm install
+   npx expo install --fix
+   npm run web
+
+6. Open the local URL printed in the terminal (usually http://localhost:8081).
+7. Press Explore as guest. The app works without Firebase!
+
+Android phone: install Expo Go, run "npm start", scan the QR code.
+iPhone: scan the QR code with Camera and open Expo Go.
+On Windows you cannot run the iOS simulator; use a physical iPhone instead.
+
+For real Firebase registration/login, follow docs/FIREBASE_SETUP.md.
+Study reminders work on a phone, not the browser preview.
+
+Full instructions: README.md

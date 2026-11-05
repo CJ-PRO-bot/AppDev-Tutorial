@@ -1,0 +1,16 @@
+{
+  "expo": {
+    "name": "AppDev Tutorial",
+    "slug": "appdev-tutorial",
+    "scheme": "appdevtutorial",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "backgroundColor": "#f6f8fc",
+    "newArchEnabled": true,
+    "ios": { "supportsTablet": true, "bundleIdentifier": "com.chabsel.appdevtutorial" },
+    "android": { "package": "com.chabsel.appdevtutorial", "edgeToEdgeEnabled": true },
+    "web": { "name": "AppDev Tutorial", "bundler": "metro" },
+    "plugins": ["expo-notifications"]
+  }
+}
